@@ -27,3 +27,9 @@ app.put('/hello', function(req, res){
 app.listen(3000,()=>{
     console.log("Server Running..............")
 });
+
+
+
+/* run on terminal that request with any method 
+   curl -X PUT "http://localhost:3000/things"
+*/
